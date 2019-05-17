@@ -4,10 +4,10 @@ bio:            '里面塞满了揉的皱巴巴的纸团哦0v<'
 description:    "Love you,peach:)"
 picture:        'assets/img/Logo.png'
 locale:         en_US
-url:            http://broccoooli.github.io/owo
+url:            http://broccoooli.github.io/
 
 # Jekyll
-permalink:      /:title/
+permalink:      /owo/
 markdown:       kramdown
 highlighter:    rouge
 kramdown:
