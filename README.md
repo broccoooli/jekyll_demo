@@ -1,13 +1,20 @@
-是摆出了owo脸的自留地哦
-==
-2019.5.16
-----
-终于要开始正式使用啦<br>
-希望这次可以认认真真的使用这个地方<br>
-大概是一个学习记录+不一定什么时候会用到的日记+停车场（<br>
-总之今天先努力把从手机备忘录里拖出来的部分上传上去<br>
-<br>
-## 2019.5.17<br>
-终于成功了，虽然没有解决为什么只有gh-pages分支下才能显示网页的问题<br>
-遗留问题主要还是出现在css完全没有显示，排版还是那个lowb排版，但是今天太晚了明天继续整理吧= =<br>
-临睡前检查了一下貌似跳转也出现了很大的问题，文章都不能正确显示，需要手动修改地址，也一并交到明天解决<br>
+# Ramme Jekyll Theme
+    
+######(If you like this theme or using it, please give a :star: for motivation.)
+
+**[Ramme](http://taylantatli.github.io/Ramme)** is a simple jekyll theme.
+
+I made this theme after seeing this [screenshot](http://spoonm.org/share/rice/01.png). I took some parts from @mmistakes, like TOC, sample posts. I never tought making a theme from scratch would be this hard. And it's still WIP.
+     
+I'm not a designer or something, so I'm sure there is a better way to make this theme. But it's working and looks acceptable for different screen sizes. If something looks extremely ugly and you can't resist to fix it, just send me a PR. I will be grateful.
+
+## Preview
+
+![screenshot of Ramme](/assets/img/screenshot-home.png)    
+![screenshot of Ramme](/assets/img/screenshot-post.png)
+
+See a [live version of Ramme](http://taylantatli.github.io/Ramme) hosted on GitHub.
+
+## Getting Started
+
+To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Ramme/ramme-theme/) for more information.
