@@ -1,18 +1,18 @@
 # Site navigation links
 
 - title: Home
-  url: /owo/
+  url: /owo
 
 - title: Notebook
-  url: /notebook/
+  url: /notebook
 
 - title: Blog
-  url: /blog/
+  url: /blog
   
 - title: Garbage
-  url: /garbage/
+  url: /garbage
   
 - title: About
-  url: /about/
+  url: /about
   
 
