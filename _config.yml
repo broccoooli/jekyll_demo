@@ -7,7 +7,7 @@ locale:         en_US
 url:            http://broccoooli.github.io/owo/
 
 # Jekyll
-permalink:      /owo/
+permalink:      /:title/
 markdown:       kramdown
 highlighter:    rouge
 kramdown:
