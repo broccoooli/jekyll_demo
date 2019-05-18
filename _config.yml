@@ -5,7 +5,7 @@ description:    "Love you,peach:)"
 picture:        'assets/img/Logo.png'
 locale:         en_US
 base_url:       /owo
-url:            http://broccoooli.github.io
+url:            http://broccoooli.github.io/owo
 
 # Jekyll
 permalink:      /:title/
