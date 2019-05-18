@@ -12,6 +12,14 @@ $(document).ready(function(){
         goupSpeed: 'normal'
     });
 });
+    (function(){
+    if('{{page.password}}'){
+        if (prompt('对下暗号|･ω･)','') !== '{{page.password}}'){
+            alert('噗噗(›´ω`‹ )');
+            history.back();
+        }
+    }
+})();
 </script>
 {% if site.google.analytics %}
 <!-- Asynchronous Google Analytics snippet -->
