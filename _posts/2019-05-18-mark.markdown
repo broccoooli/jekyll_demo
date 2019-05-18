@@ -4,6 +4,7 @@ title: "留个记号"
 date: 2019-05-18
 excerpt: "预览用"
 garbage: true
+password: 123456
 ---
 ![Logo]({{ site.url }}/{{ site.picture }}){: .selfie}
 
