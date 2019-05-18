@@ -63,7 +63,6 @@ gems:
   - jekyll-paginate
 
 jekyll-mentions:
-    base_url: http://broccoooli.github.io/owo
-
+    base_url: http://broccoooli.github.io/
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
