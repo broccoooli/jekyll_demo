@@ -5,13 +5,13 @@
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
     <meta name=viewport content="width=device-width, initial-scale=1">
-    <title>黄色废料堆放地 &#8211; 一个破破烂烂的小盒子</title>
-    <meta name="description" content="A List of Garbage">
+    <title>有关于五月十九日当天我干出来的傻事 &#8211; 一个破破烂烂的小盒子</title>
+    <meta name="description" content="错题集性质——有关于jekyll本地浏览以及push到git上遇到的各种问题">
     <meta name="keywords" content="">
-    <link rel="canonical" href="http://localhost:4000/garbage/">
+    <link rel="canonical" href="http://localhost:4000/notebook-4/">
         <!-- Twitter Cards -->
-    <meta name="twitter:title" content="黄色废料堆放地">
-    <meta name="twitter:description" content="A List of Garbage">
+    <meta name="twitter:title" content="有关于五月十九日当天我干出来的傻事">
+    <meta name="twitter:description" content="错题集性质——有关于jekyll本地浏览以及push到git上遇到的各种问题">
     <meta name="twitter:site" content="@broccooooooli">
     <meta name="twitter:creator" content="@broccooooooli">
     <meta name="twitter:card" content="summary">
@@ -19,9 +19,9 @@
     <!-- Open Graph -->
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="黄色废料堆放地">
-    <meta property="og:description" content="A List of Garbage">
-    <meta property="og:url" content="http://localhost:4000/garbage/">
+    <meta property="og:title" content="有关于五月十九日当天我干出来的傻事">
+    <meta property="og:description" content="错题集性质——有关于jekyll本地浏览以及push到git上遇到的各种问题">
+    <meta property="og:url" content="http://localhost:4000/notebook-4/">
     <meta property="og:site_name" content="一个破破烂烂的小盒子">
     <meta property="og:image" content="http://localhost:4000/assets/img/Logo.png">
 
@@ -69,33 +69,52 @@
 
     <div class="wrapper">
         <div class="title">
-            <h1>黄色废料堆放地</h1>
+            <h1>有关于五月十九日当天我干出来的傻事</h1>
+            <h4>19 May 2019</h4>
         </div>
-        <div class="garbage-list">
-             
-              
-             
-              
-             
-              
-            <ul>
-                <li><a href="http://localhost:4000/mark/">留个记号</a></li>
-            </ul>
-              
-             
-              
-             
-              
-             
-              
-             
-              
-            
+        <div class="article">
+            <p>今天解决博客的scss样式不能直接在浏览器上显示的问题。<br />
+但昨天看了一下居然是可以在uc浏览器上显示的，费解= =不过媳的ios的uc就不可以，那看来可能是安卓的问题吧，昨晚加上今天找了一些相关的资料，初步判断是没有顺利的生成css文件，现在打算去手动生成一下试试看<br />
+试图查阅解决问题的时候发现，mian.scss会在每次构建网站时编译为常规css，我的样式不能顺利显示会不会是这里出现的问题呢<br />
+首先尝试手动转化scss main.scss main css<br />
+报错， Invalid CSS after “…ort “variables””: expected “{“, was “;”on line 15 of main.scss<br />
+修改的过程中发现blog分支貌似一直都在出现问题，打算先去修改一下blog分支下的文章问题<br />
+在本地运行依然没有报错，现在初步打算修改html里调用css的代码来看看能否解决问题。<br />
+问题出在我在编辑config的时候在url上的https的s被我丢了orz我是蛤批<br />
+真的是声嘶力竭了一宿加一天，今天已经不想再碰什么东西了我要去玩缺氧了（翻白眼<br />
+哦对不起我忘了搞上锁- -我又爬回来了<br />
+被媳抬走文明去了（。</p>
+
         </div>
     </div>
         <div class="footer">
         一个破破烂烂的小盒子 © 2019 <a href="http://localhost:4000/feed.xml" target="_blank"><i class="fa fa-fw fa-feed"></i></a>
     </div>
+
+    <script src="http://localhost:4000/assets/js/jquery-1.12.2.min.js"></script>
+<script src="http://localhost:4000/assets/js/jquery.goup.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $.goup({
+        trigger: 500,
+        bottomOffset: 10,
+        locationOffset: 20,
+        containerRadius: 0,
+        containerColor: '#fff',
+        arrowColor: '#000',
+        goupSpeed: 'normal'
+    });
+});
+    (function(){
+    if(''){
+        if (prompt('对下暗号|･ω･)','') !== ''){
+            alert('噗噗(›´ω`‹ )');
+            history.back();
+        }
+    }
+})();
+</script>
+
 
 </body>
 </html>
